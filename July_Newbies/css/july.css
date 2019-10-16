@@ -1,0 +1,90 @@
+body{
+	/*background-color: rgb:(246, 227, 212) ;*/
+	background-color: linen;
+}
+
+.center{
+	margin: 0 auto;
+	min-width: 1200px; 
+}
+
+.clearfix {
+
+    clear: both;
+
+}
+
+.fl-left {
+	float: left;
+
+}
+
+.zone{
+	color:background-color: orange;
+	text-align: center;
+}
+
+.design{
+	padding-right: 220px;
+	padding-left: 150px;
+
+}
+
+/* Start Contact-Me */
+.contact-me {
+	overflow: auto;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	padding-left: 70px;
+}
+.contact-me .info-contact {
+	width: 50%;
+}
+.contact-me h2 {
+	color: white;
+	text-transform: uppercase;
+}
+
+.contact-me p {
+	color: orange;
+}
+.contact-me p strong {
+	color:linen; 
+}
+.contact-me .form-contact{
+	width: 50%;
+}
+.contact-me .form-contact label {
+	color: linen;
+	margin-bottom: 20px;
+	display: block;
+	}
+.contact-me .form-contact input[type="text"]
+{
+	background-color:grey;
+	padding: 10px; 
+	color: orange;
+	border: 0;
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+.contact-me .form-contact textarea
+{
+	background-color:grey;
+	padding: 10px; 
+	color: #FFF;
+	border: 0;
+	width: 70%;
+	margin-bottom: 15px;
+	height: 100px;
+}
+.contact-me .form-contact input[type="submit"] {
+	background-color: grey;
+	color: #d8eaea;
+	margin-top: 10px;
+	padding: 9px;
+	width: 30%;
+}
+
+/* End Contact-Me */

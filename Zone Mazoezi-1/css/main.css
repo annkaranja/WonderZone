@@ -1,0 +1,135 @@
+/*start of overall rules*/
+body {
+  background-color: rgb(102, 204, 255);
+  padding: 20px;
+  font-family: Arial;
+}
+
+.center { 
+	margin: 0 auto; 
+	max-width: 1200px;
+	display: table;
+	overflow: auto;
+}
+
+.clearfix {
+
+    clear: both;
+
+}
+
+.fl-left {
+	float: left;
+
+}
+
+/*End overall rules*/
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  /*word-break: break-all;*/
+}
+
+.row {
+  margin: 8px 16px;
+}
+
+/* Add padding BETWEEN each column */
+.row .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Start Contact-Me */
+.contact-me {
+	background-color: #252e30;
+	overflow: auto;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	padding-left: 70px;
+}
+.contact-me .info-contact {
+	width: 50%;
+}
+.contact-me h2 {
+	color: #f6feff;
+}
+
+.contact-me p {
+	color: #5d6162;
+}
+.contact-me p strong {
+	color:#dae0e1; 
+}
+.contact-me .form-contact{
+	width: 50%;
+}
+.contact-me .form-contact label {
+	color: #dae0e1;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.contact-me .form-contact input[type="text"]
+{
+	background-color:#708287;
+	padding: 10px; 
+	color: #FFF;
+	border: 0;
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+.contact-me .form-contact textarea
+{
+	background-color:#708287;
+	padding: 10px; 
+	color: #FFF;
+	border: 0;
+	width: 70%;
+	margin-bottom: 15px;
+	height: 300px;
+}
+.contact-me .form-contact input[type="submit"] {
+	background-color: #322b2b;
+	color: #d8eaea;
+	margin-top: 10px;
+	padding: 9px;
+	width: 30%;
+}
+
+/* End Contact-Me */

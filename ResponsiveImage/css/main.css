@@ -1,0 +1,21 @@
+
+/*If you want the image to scale both up and down on responsiveness, set the CSS width property to 100% and height to auto*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+/*If you want an image to scale down if it has to, but never scale up to be larger than its original size, use max-width: 100%*/
+/*.responsive {
+  max-width: 100%;
+  height: auto;
+}*/
+
+
+/*If you want to restrict a responsive image to a maximum size, use the max-width property, with a pixel value of your choice*/
+/*.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}*/

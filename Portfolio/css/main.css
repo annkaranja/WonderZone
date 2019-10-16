@@ -1,0 +1,59 @@
+.body{
+  /*color: linen;*/
+  font-family: arial;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/Aip1.png.");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #FF8C00;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#49E0EA;
+  color: black;
+}
+
+footer{
+  font-size: 14px;
+  text-align: center;
+  color: #ddd;
+  padding: 20px 0 20px 0;
+  background-color: #FF8C00;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+.body{
+  color: linen;
+  font-family: arial;
+}
+
+.center { 
+  margin: 0 auto; 
+  max-width: 1200px;
+  display: table;
+  overflow: auto;
+}
+
+
+.header .my-hero {
+  background-image: url(../images/Aip1.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.header .my-hero .intro {
+  padding: 166.6px;
+  text-align: center;
+  color: #fff;
+}
+
+.header .my-hero .intro h2 {
+  font-size: 40px;
+  color: #fff;
+  display: table;
+}
+
+.nav{
+  height: 70px;
+  background-color:orange;
+}
+
+.header-cont{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-cont img{
+  float: left;
+  margin-top: 11px;
+
+}
+.header-cont ul{
+  float: right;
+}
+
+
+.header-cont ul li{
+  float: left;
+  list-style:none;
+}
+
+.header-cont ul li a{
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration:none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.banner{
+  margin: 0 auto;
+  padding:0 60px 0 60px;
+}
+
+.header .my-hero .intro a{
+  text-decoration:none;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0 auto;
+}
+
+.header .my-hero .intro a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+footer{
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  padding: 20px 0 20px 0;
+  background-color: orange;
+}
+
+
+
+
+
+
+
+
+
